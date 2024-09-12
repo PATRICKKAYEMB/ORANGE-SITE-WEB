@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background: #fff;
+}
+.navbar{
+   
+    width: 100%;
+   background: black;
+   color: white;
+
+}
+.orange-intro{
+    padding: 10px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+   
+}
+.orange-intro .orange-left ul{
+    display: flex;
+    gap: 15px;
+}
+.orange-intro .orange-left ul li{
+    list-style: none;
+    
+}
+.orange-intro .orange-left ul li a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.orange-intro .orange-left ul li a:hover{
+    color:#ff7900 ;
+}
+.orange-intro .orange-left ul li .entreprise{
+    color: #ff7900;
+}
+
+.orange-intro .orange-right ul{
+    position: sticky;
+    display: flex;
+    gap: 15px;
+}
+.orange-intro .orange-right ul li{
+    list-style: none;
+    
+}
+.orange-intro .orange-right ul li a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 55px;
+    transition: 0.5s;
+}
+.orange-intro .orange-right ul li a{
+    display: flex;
+    align-items: center;
+}
+.orange-intro .orange-right ul li a img{
+    margin-right: 10px;
+        width: 15px;
+}
+.orange-intro .orange-right ul li a:hover{
+    color:#ff7900 ;
+}
+.orange-header{
+    padding: 10px 8%;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    background: #000;
+    width: 100%;
+}
+.orange-header ul{
+    display: flex;
+    gap: 20px;
+   
+}
+.orange-header ul li{
+    list-style: none;
+   
+}
+.orange-header ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 0.5s;   
+}
+.orange-header div img{
+    width: 40px;
+}
+
+/*---------------------------home page------------------------------------------*/
+
+.home{
+    margin-top: 20px;
+    padding: 0px 8%;
+    width: 100%;
+    display: flex; 
+    margin-bottom: 20px;  
+    min-height: 59vh;
+    background: #000;
+    justify-content: space-between;
+
+}
+.home-left{
+    flex-basis: 37%;
+    background: black;
+    padding-left: 40px;
+}
+.home-left h3{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #ff7900;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.home-left h4{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.home-left p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.home-left div{
+    margin-top: 10px;
+    padding: 7px 15px;
+    border: 2px solid white;
+    color: #fff;
+    display: inline-block;   
+}
+
+.home-left div a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.home-right{
+    flex-basis: 58%;
+    background-image: url("album/image1.jpg");
+}
+
+
+/*--------------------------------recherche------------------------------------*/
+
+.recherche{
+    margin-top: 20px;
+    padding: 1px 8%;
+    margin-bottom: 10px;
+}
+.recherche h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+}
+.recherche-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.recherche-row .row-col{
+    margin-top: 20px;
+    flex-basis: 24%;
+}
+.recherche-row .row-col .image{
+    width: 100%;
+}
+.row-col .image img{
+    width: 100%;
+}
+.row-lien{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row-lien a{
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/*---------------------------------service-------------------------------*/
+
+
+.service{
+    margin-top: 50px;
+    padding: 1px 8%;
+    margin-bottom: 70px;
+}
+
+.service h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+} 
+.service-row{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.service-row .service-col{
+    flex-basis: 24%;
+
+}
+.service-row .service-col .image{
+    width: 100%;
+}
+.service-row .service-col .image img{
+    width: 100%;
+}
+.service-row .service-col .box{
+    margin-top: 10px;
+    
+
+   
+}
+.service-row .service-col .box a{
+    margin-top: 10px;
+    font-size: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff7900;
+}
+.service-row .service-col p{
+    font-size: 13px;
+    width: 100%;
+    margin-top: 10px;   
+    margin-bottom: 20px;
+}
+.service-row .service-col .box2{
+    padding: 6px 15px;
+    background: #ff7900;
+    display: inline-block;
+    align-items: center;
+}
+.service-row .service-col .box2 a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+
+}
+.service-row .service-col .box2:hover{
+    color: #fff;
+    background: #000;
+
+}
+.service-row .service-col .box2 a:hover{
+    color: #fff;
+    
+
+}
+
+/*---------------------produit-----------------------------*/
+
+
+.produit{
+    margin-top: 10px;
+    padding: 1px 8%;
+    margin-bottom: 40px;
+}
+.produit .text{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.produit .text h3{
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.produit .text .produit-lien{
+    padding: 7px 10px;
+    border: 2px solid #000;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.produits-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5%;
+
+}
+.produit-col{
+    border-top: 4px solid #ff7900;
+    flex-basis: 24%;
+   
+    height: 400px;
+}
+.produit-col .image{
+    width: 100%;
+}
+.produit-col .image img{
+    width: 100%;
+}
+
+@media  only screen  and (max-width:600px){
+    .produit,.service,.recherche{
+        padding: 2px 4%;
+    }
+    
+    .service-row,.produits-row,.recherche-row{
+
+        flex-direction: column;
+    }
+
+    .row-col,.produit-col,.service-col{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
